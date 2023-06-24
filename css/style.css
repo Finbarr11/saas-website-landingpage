@@ -663,3 +663,78 @@ li a:hover:not(.active) {
 .social {
   padding: 0px 0px 0px 30px;
 }
+
+
+
+@media only screen and (max-width: 428px) {
+    body{
+      width: 100%;
+      /*padding: 0px 20px 0px 20px;*/
+    }
+    .header{
+      display: flex;
+      flex-direction: column;
+    }
+    .header1{
+      font-size: 14px;
+    }
+    .header2{
+      padding: 0px 10px 0px 10px;
+    }
+    .navbar{
+      display: none;
+      background-image: url("/css/images/menu.png");
+    }
+    .contactnow1{
+      display: none;
+    }
+    .section1{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .section1text{
+      margin: 0px 0px 0px -50px;
+      padding: 0px 10px 0px 10px;
+      display: flex;
+      flex-direction: column;
+    }
+    .section1text1{
+      display: flex;
+      flex-direction: column;
+      width: 428px;
+      font-size: 40px;
+      margin-left: -10px;
+      flex-direction: column;
+    }
+    .section1text2{
+      display: flex;
+      flex-direction: column;
+      width: 390px;
+      font-size: 16px;
+      flex-direction: column;
+    }
+    .contactnow2{
+      width: 139px;
+    }
+    .bookdemo{
+      width: 160px;
+    }
+    .rated{
+      width: 300px;
+    }
+    .section1image{
+      display: flex;
+      flex-direction: column;
+    }
+    .section1image1{
+      display: none;
+    }
+    .section1image2{
+      display: flex;
+      flex-direction: column;
+      width: 430px;
+      padding: 0px 10px 0px 10px;
+      margin: 20px 20px 20px -30px;
+    }
+}
