@@ -166,7 +166,7 @@ li a:hover:not(.active) {
   margin: 20px 10px 20px 60px;
   padding: 30px 40px 30px 40px;
 }
-.ad{
+.ad {
   justify-content: center;
   align-items: center;
   align-self: center;
@@ -186,7 +186,7 @@ li a:hover:not(.active) {
   line-height: 30px;
   font-weight: bold;
 }
-.ad1 {
+.ad1, .ad2, .ad3, .ad4, .ad5, .ad6 {
   padding: 0px 38px;
 }
 .section3 {
@@ -673,347 +673,331 @@ li a:hover:not(.active) {
   padding: 0px 0px 0px 30px;
 }
 
-
-
 @media only screen and (max-width: 428px) {
-    body{
-      width: 100%;
-      overflow-x: hidden;
-    }
-    .header{
-      display: flex;
-      flex-direction: column;
-    }
-    .header1{
-      font-size: 14px;
-    }
-    .header2{
-      display: flex;
-      background-position: right;
-      margin-right: 20px;
-      padding: 0px 10px 0px 10px;
-      background-image: url(/css/images/menu.svg);
-      background-repeat: no-repeat;
-    }
-    .navbar{
-      display: none;
-    }
-    .contactnow1{
-      display: none;
-    }
-    .section1{
-      display: flex;
-      flex-direction: column;
-      padding: 40px 10px 40px 10px;
-    }
-    .section1text{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .section1text1{
-      display: flex;
-      padding: 10px 0px 20px 0px;
-      flex-direction: column;
-      width: 100%;
-      font-size: 38px;
-    }
-    .section1text2{
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 0px 10px 30px 10px;
-      text-align: justify;
-      font-size: 16px;
-      
-    }
-    .contactnow2{
-      width: 100%;
-    }
-    .bookdemo{
-      width: 100%p;
-    }
-    .rated{
-      width: 100%;
-    }
-    .section1image{
-      display: flex;
-      padding: 20px 20px 20px 20px;
-      flex-direction: column;
-    }
-    .section1image1{
-      display: none;
-    }
-    .section1image2 {
-      margin: 20px 0px 0px -200px;
-      display: flex;
-      width: 350px;
-      height: 300px;
-    }
-    .section2 {
-      display: flex;
-      flex-direction: column;
-      margin: 20px 0px 20px 0px;
-      width: 100%;
-    }
-    .ad{
-      padding: 10px 0px 10px 30px;
-    }
-    .ad_ {
-      display: flex;
-      margin-left: 100px;
-      padding: 10px 10px 10px 150px;
-      align-items: center;
-     
-    }
-    .ad1 {
-      display: flex;
-      padding: 0px 20px 0px 10px;
-    }
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .header1 {
+    font-size: 14px;
+  }
+  .header2 {
+    display: flex;
+    background-position: right;
+    margin-right: 20px;
+    padding: 0px 10px 0px 10px;
+    background-image: url(/css/images/menu.svg);
+    background-repeat: no-repeat;
+  }
+  .navbar {
+    display: none;
+  }
+  .contactnow1 {
+    display: none;
+  }
+  .section1 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 40px 10px;
+  }
+  .section1text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section1text1 {
+    display: flex;
+    padding: 10px 0px 20px 0px;
+    flex-direction: column;
+    width: 100%;
+    font-size: 38px;
+  }
+  .section1text2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px 30px 10px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .contactnow2 {
+    width: 100%;
+  }
+  .bookdemo {
+    width: 100%p;
+  }
+  .rated {
+    width: 100%;
+  }
+  .section1image {
+    display: flex;
+    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+  }
+  .section1image1 {
+    display: none;
+  }
+  .section1image2 {
+    margin: 20px 0px 0px -200px;
+    display: flex;
+    width: 350px;
+    height: 300px;
+  }
+  .section2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 20px 0px;
+    width: 100%;
+  }
+  .ad {
+    padding: 10px 0px 10px 30px;
+  }
+  .ad_ {
+    display: flex;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    align-items: center;
+  }
+  .ad1, .ad2, .ad3 {
+    display: flex;
+    width: 100%;
+    padding: 0px 20px 0px 10px;
+  }
+.ad4, .ad5, .ad6{
+  display: none;
+}
+  .section3 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 40px 10px;
+  }
+  .section3text {
+    width: 100%;
+  }
+  .section3text1 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .section3text2 {
+    width: 100%;
+    text-align: justify;
+    padding: 0px 10px 30px 10px;
+  }
+  .contactnow3 {
+    display: flex;
+    flex-direction: row;
+    padding: 18px 150px 18px 150px;
+  }
+  .section3image {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 10px 10px 10px;
+  }
+  .section3image1 {
+    padding: 0px;
+    width: 130px;
+    height: 100px;
+    margin: 150px 0px 0px -70px;
+    z-index: 1;
+  }
+  .section3image2 {
+    margin: 30px 10px 0px 0px;
+    width: 350px;
+    height: 350px;
+  }
+  .section4 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 20px 30px 20px;
+    padding: 40px 10px 40px 10px;
+  }
+  .section5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+  .section5text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section5text1 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .section5text2 {
+    font-size: 16px;
 
+    width: 100%;
+  }
+  .section5text3 {
+    width: 100%;
+  }
 
-    .section3 {
-      display: flex;
-      flex-direction: column;
-      padding: 40px 10px 40px 10px;
-    }
-    .section3text {
-      width: 100%;
-    }
-    .section3text1 {
-      font-size: 38px;
-      width: 100%;
-    }
-    .section3text2 {
-      width: 100%;
-      text-align: justify;
-      padding: 0px 10px 30px 10px;
-    }
-    .contactnow3 {
-      display: flex;
-      flex-direction: row;
-      padding: 18px 150px 18px 150px;
-    }
-    .section3image {
-      display: flex;
-      flex-direction: row;
-      margin: 30px 10px 10px 10px;
-    }
-    .section3image1 {
-      padding: 0px;
-      width: 130px;
-      height: 100px;
-      margin: 150px 0px 0px -70px;
-      z-index: 1;
-    }
-    .section3image2 {
-      margin: 30px 10px 0px 0px;
-      width: 350px;
-      height: 350px;
-    }
-    .section4 {
-      display: flex;
-      flex-direction: column;
-      margin:30px 20px 30px 20px;
-      padding: 40px 10px 40px 10px;
-    }
-    .section5 {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 20px 20px 20px 20px;
-    }
-    .section5text {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .section5text1 {
-      font-size: 38px;
-      width: 100%;
+  .form {
+    display: flex;
+    padding: 10px 30px 10px 0px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    align-self: start;
+  }
+  .name,
+  .email {
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+  }
+  .submit {
+    padding: 12px 10px 12px 10px;
+    width: 100%;
+  }
+  .section5image {
+    width: 100%;
+  }
+  .section5image1 {
+    width: 400px;
+    height: 450px;
+  }
+  .section5image2 {
+    margin: 200px 0px 0px -450px;
+    height: 250px;
+    z-index: 1;
+  }
+  .section6 {
+    padding: 50px 20px 60px 20px;
+  }
 
-    }
-    .section5text2 {
-      font-size: 16px;
-      
-      width: 100%;
-    
-    }
-    .section5text3 {
-      width: 100%;
+  .section6text1 {
+    font-size: 38px;
+  }
 
-      
-    }
-  
-    .form {
-      display: flex;
-      padding: 10px 30px 10px 0px;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      align-self: start;
-    }
-    .name,
-    .email {
-    
-      width: 100%;
-      margin: 10px 20px 10px 20px;
-    }
-    .submit {
-      padding: 12px 10px 12px 10px;
-      width: 100%;
-   
-    }
-    .section5image {
-      width: 100%
-    }
-    .section5image1 {
-      width: 400px;
-      height: 450px;
-    }
-    .section5image2 {
-      margin: 200px 0px 0px -450px;
-      height: 250px;
-      z-index: 1;
-    }
-    .section6 {
-      padding: 50px 20px 60px 20px;
-    }
-  
-    .section6text1 {
-      font-size: 38px;
-     
-    }
-    
-    .section6image {
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .section7 {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 20px 20px 20px 20px;
-    }
-    .section7text {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
-    .section7text1 {
-      font-size: 38px;
-      width: 100%;
-      font-weight: bold;
-      color: #201c44;
-      padding: 10px 0px 10px 0px;
-    }
-    .section7text2 {
-      font-size: 16px;
-      color: #201c44;
-      width: 100%;
-      padding: 0px 0px 40px 0px;
-    }
-    .section7text3 {
-      display: flex;
-      flex-direction: row;
-    }
-   
-    .section7image {
-      display: flex;
-      width: 50%;
-    }
-    .section7image1 {
-      display: none;
-    }
-    .section7image2 {
-      display: none;
-    }
-    .section8 {
-      display: flex;
-      flex-direction: column;
-      margin: 0px 20px 0px 20px;
-    
-    }
-    .section8text {
-      display: flex;
-    
-    }
-   
-    .section9 {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      padding: 70px 20px 60px 20px;
-    }
-   
-    .section9text1 {
-      padding: 10px 0px 10px 0px;
-    }
-    .section9text2 {
-      font-size: 38px;
-      
-    }
-    
-    
-    .section9text5 {
-      padding: 20px 20px 20px 20px;
-    }
-   
-   
-    .footer {
-      display: flex;
-      width: 100%;
-    }
-    .footer1 {
-      display: flex;
-      width: 100%;
-      padding: 0px 20px 40px 20px;
-      align-items: center;
-      border-bottom: 1px solid #d0d0d0;
-    }
-    .logo {
-      display: flex;
-      padding: 5px 5px 5px 5px;
-    }
-    .companyname {
-      display: flex;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 32px;
-      font-weight: bold;
-      padding: 0px 0px 0px 5px;
-    }
-    .subname {
-      font-size: 8px;
-      align-items: center;
-    }
-    .navbar2{
-      display: flex;
-      padding: 10px 0px 10px 0px;
-      margin-left: 0px;
-    }
-   
-   
-    .footer2 {
-      display: flex;
-      width: 100%;
-      padding: 30px 20px 30px 20px;
-    }
-    .footer2text {
-      display: flex;
-      color: #131126;
-      width: 100%;
-      font-size: 13px;
-    }
-    .footer2image {
-      display: flex;
-      
-      justify-content: center;
-      margin: 0px 0px 0px 20px;
-    }
-    .social {
-      width: 30px;
-      padding: 0px 0px 0px 10px;
-    }
-    
+  .section6image {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section7 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+  .section7text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .section7text1 {
+    font-size: 38px;
+    width: 100%;
+    font-weight: bold;
+    color: #201c44;
+    padding: 10px 0px 10px 0px;
+  }
+  .section7text2 {
+    font-size: 16px;
+    color: #201c44;
+    width: 100%;
+    padding: 0px 0px 40px 0px;
+  }
+  .section7text3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section7image {
+    display: flex;
+    width: 50%;
+  }
+  .section7image1 {
+    display: none;
+  }
+  .section7image2 {
+    display: none;
+  }
+  .section8 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px 0px 20px;
+  }
+  .section8text {
+    display: flex;
+  }
+
+  .section9 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 70px 20px 60px 20px;
+  }
+
+  .section9text1 {
+    padding: 10px 0px 10px 0px;
+  }
+  .section9text2 {
+    font-size: 38px;
+  }
+
+  .section9text5 {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .footer {
+    display: flex;
+    width: 100%;
+  }
+  .footer1 {
+    display: flex;
+    width: 100%;
+    padding: 0px 20px 40px 20px;
+    align-items: center;
+    border-bottom: 1px solid #d0d0d0;
+  }
+  .logo {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+  }
+  .companyname {
+    display: flex;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0px 0px 0px 5px;
+  }
+  .subname {
+    font-size: 8px;
+    align-items: center;
+  }
+  .navbar2 {
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    margin-left: 0px;
+  }
+
+  .footer2 {
+    display: flex;
+    width: 100%;
+    padding: 30px 20px 30px 20px;
+  }
+  .footer2text {
+    display: flex;
+    color: #131126;
+    width: 100%;
+    font-size: 13px;
+  }
+  .footer2image {
+    display: flex;
+
+    justify-content: center;
+    margin: 0px 0px 0px 20px;
+  }
+  .social {
+    width: 30px;
+    padding: 0px 0px 0px 10px;
+  }
 }
